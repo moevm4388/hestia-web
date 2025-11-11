@@ -1,9 +1,9 @@
-from typing import NoReturn
+from fastapi import FastAPI
 
 
-def main() -> NoReturn:
-    ...
+app = FastAPI()
 
 
-if __name__ == "__main__":
-    main()
+@app.get("/functions")
+async def get_functions():
+    return []
