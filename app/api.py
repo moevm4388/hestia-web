@@ -41,7 +41,7 @@ async def list_functions(
         return list(map(lambda f: f.name, module_group.methods()))
 
 
-@router.get("/call", summary="Вызов функции по имени или номеру")
+@router.get("/call/{function}", summary="Вызов функции по имени или номеру")
 async def call_function(
     function: Identifier | str,
     args: list[str] = Query([]),
