@@ -3,7 +3,7 @@ name: Build and Push Hestia OCI Image to GHCR
 on:
   push:
     branches: [ main ]
-    paths: [ 'app/**' ]
+    paths: [ '.github/workflows/oci.yml', 'app/**', 'static/**' ]
 
 env:
   REGISTRY: ghcr.io
