@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: moevm4388/hestia-srv
+  IMAGE_NAME: moevm4388/hestia-web
 
 jobs:
   build-and-push:

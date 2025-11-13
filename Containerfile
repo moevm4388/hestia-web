@@ -1,5 +1,5 @@
 FROM python:3.12
-LABEL org.opencontainers.image.source="https://github.com/moevm4388/hestia-srv"
+LABEL org.opencontainers.image.source="https://github.com/moevm4388/hestia-web"
 
 WORKDIR /app
 COPY requirements.txt .
