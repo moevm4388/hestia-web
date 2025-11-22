@@ -9,7 +9,7 @@ fastapi==0.121.1
 fastapi-cli==0.0.16
 fastapi-cloud-cli==0.3.1
 h11==0.16.0
-hestia @ git+https://github.com/moevm4388/hestia.git@56fd2789ceb9b32f74a930ba9cda7c4644c0f180
+hestia @ git+https://github.com/moevm4388/hestia.git@2c148864c0b77d5cf8aa563e5e67508a038d7878
 httpcore==1.0.9
 httptools==0.7.1
 httpx==0.28.1
