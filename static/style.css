@@ -133,6 +133,10 @@ footer {
     text-align: center;
 }
 
+select option {
+    background: #18181b;
+}
+
 a {
     transition: .2s color ease;
     text-decoration: none;
